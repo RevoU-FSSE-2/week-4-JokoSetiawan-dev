@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Investree: Empowering Forest Conservation through Tree Planting
+    </title>
+    <link rel="icon" href="image/logo-only-01.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img
+            class="logo"
+            src="image/investree-logo-01.png"
+            alt="investree-logo"
+          />
+        </div>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Activity</a></li>
+          <li><a href="#">Article</a></li>
+          <li><a href="#">Contribute</a></li>
+        </ul>
+
+        <div class="hamburger-menu" onclick="myFunction(this)">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <header class="intro">
+        <div class="intro-words">
+          <h1 class="greeting">Welcome Hero..</h1>
+          <p class="intro-desc">
+            10,000,000+ trees has been planted in 20+ countries. We hope that
+            more people will contribute to protect our earth together.
+          </p>
+        </div>
+        <img
+          class="planting-illustration"
+          src="image/Asset-1-planting-01.png"
+          alt="a image illustration contain 2 person do planting"
+        />
+      </header>
+
+      <section class="about-us">
+        <div class="container">
+
+          <h2>About Us</h2>
+          <p class="about-paragraph">
+            Investree is a dedicated social organization committed to the
+            protection and conservation of forests through tree planting
+            initiatives. With a vision to restore and preserve the Earth's
+            forests, Investree works diligently to create a sustainable and
+            greener future for all.At Investree, the belief that trees are
+            essential for the health of our planet drives every endeavor.
+          </p>
+          <div>
+            <a href="#">
+              <button class="about-button" type="button">See More</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="activity-class">
+        <div>
+          <h2>Our Activity</h2>
+        </div>
+
+        <div class="container-grid">
+          <img
+            class="img1"
+            src="image/Untitled-1-01.png"
+            alt="people planting a tree"
+          />
+          <img
+            class="img2"
+            src="image/Untitled-1-02.png"
+            alt="a hand hold plant"
+          />
+          <img
+            class="img3"
+            src="image/Untitled-1-03.png"
+            alt="a teacger and students studying about tree"
+          />
+          <img
+            class="img4"
+            src="image/Untitled-1-04.png"
+            alt="people's hand hold plant"
+          />
+          <img
+            class="img5"
+            src="image/Untitled-1-05.png"
+            alt="someone doing planting"
+          />
+          <img
+            class="img6"
+            src="image/Untitled-1-06.png"
+            alt="parent and kid doing planting"
+          />
+        </div>
+      </section>
+
+      <section class="video">
+        <div class="head">
+          <h2 class="video-head">Why we need more tree</h2>
+        </div>
+        <div class="yt-vid">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3hxE7Af98AI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="form-main">
+        <div>
+          <h2 class="form-capt">Fill form to contribute</h2>
+        </div>
+        <div class="form">
+          <div class="border-form">
+            <form action="#">
+              <div class="input-box">
+                <span class="details">Username</span>
+                <input type="text" placeholder="Username" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="email" placeholder="Enter Your Email" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Password</span>
+                <input type="password" placeholder="Enter Your Password" required />
+              </div>
+              <div class="input-box">
+                <span class="details"> Confirm Password</span>
+                <input type="password" placeholder="Confirm Pasword" required />
+              </div>
+              <div class="date-form">
+                <label for="birthday">Date of Birth</label>
+                <input type="date" id="birthday" name="birthday" />
+              </div>
+              <div class="details">
+                <p>Gender</p>
+                <input
+                  type="radio"
+                  id="Male"
+                  name="Gender"
+                  value="Male"
+                  required
+                />
+                <label for="Male">Male</label>
+                <input
+                  type="radio"
+                  id="Female"
+                  name="Gender"
+                  value="Female"
+                  required
+                />
+                <label for="Female">Female</label>
+              </div>
+              <div class="news">
+                <input type="checkbox" id="news" name="News" value="News" />
+                <label for="news">Receive news from Investree</label>
+              </div>
+              <div class="submit">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <picture>
+        <source srcset="image/logo-only-01.png" media="(max-width: 768px)">
+        <img src="image/investree-logo-01.png" alt="tree-logo">
+      </picture>
+    </main>
+    <footer>
+      <div>
+        <h4>© Copyright 2023 Investree</h2>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1440px) {
+ .form {
+  width: 25%;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul {
+    display: none;
+  }
+  .intro {
+    margin: 0;
+    padding: 100px 100px 150px 100px;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+  .activity-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 80px 60px 80px;
+  }
+  .container-grid {
+    gap: 10px;
+    padding: 0px;
+  }
+  .video {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  nav {
+    justify-content: space-between;
+    padding: 20px 28px;
+  }
+  .intro {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 60px 0px;
+  }
+  .planting-illustration {
+    width: 300px;
+    padding-top: 40px;
+  }
+  .intro-words {
+    text-align: center;
+    width: 70vw;
+    padding: 0;
+  }
+  .greeting {
+    font-size: 1.7em;
+  }
+  .activity-class {
+    padding: 50px 20px 50px 20px;
+  }
+  .activity-class div h2 {
+    padding: 0px 10px;
+    border-radius: 2rem;
+  }
+  .container-grid {
+    gap: 5px;
+  }
+  .container-grid img {
+    border-radius: 1rem;
+  }
+  .video {
+    padding-top: 0px;
+  }
+  .form-capt {
+    font-size: 1.6em;
+  }
+  .form {
+    width: 70%;
+  }
+}

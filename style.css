@@ -73,18 +73,6 @@ nav ul li a:hover {
   display: flex;
   padding-right: 10vw;
   flex-direction: column;
-  animation-duration: 3s;
-  animation-name: slide;
-}
-
-@keyframes slide {
-  from {
-    margin-right: 100%;
-  }
-
-  to {
-    margin-right: 0%;
-  }
 }
 
 .greeting {
@@ -281,7 +269,6 @@ nav ul li a:hover {
   margin-top: 10px;
   margin-bottom: 20px;
   justify-content: left;
-
 }
 
 .date-form {
